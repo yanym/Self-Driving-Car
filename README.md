@@ -37,3 +37,6 @@ sudo service polipo stop
 
 ## Use pip w/ proxy
 pip3 --proxy 127.0.0.1:8123 install tensorflow
+
+## Extract csv
+``` rostopic echo -b <BAGFILE> -p <TOPIC> > <output>.csv # <BAGFILE> is bag file，<TOPIC> is topic ```
